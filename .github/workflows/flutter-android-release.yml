@@ -31,22 +31,22 @@ jobs:
         id: version
         run: |
           VERSION_NAME=$(grep 'version:' pubspec.yaml | cut -d ' ' -f 2 | cut -d '+' -f 1)
+          # استفاده از تعداد کامیت‌ها به عنوان شماره بیلد
           BUILD_NUMBER=$(git rev-list --count HEAD)
+          
           echo "VERSION_NAME=$VERSION_NAME" >> $GITHUB_ENV
           echo "BUILD_NUMBER=$BUILD_NUMBER" >> $GITHUB_ENV
-          echo "VERSION=v$VERSION_NAME" >> $GITHUB_ENV
+          
+          # تغییر مهم: اضافه کردن شماره بیلد به نام تگ برای یکتا شدن
+          # مثال: v1.0.0-11
+          echo "VERSION=v$VERSION_NAME-$BUILD_NUMBER" >> $GITHUB_ENV
 
       - name: Update pubspec.yaml with build number
         run: |
           sed -i "s/version: .*/version: ${{ env.VERSION_NAME }}+${{ env.BUILD_NUMBER }}/" pubspec.yaml
 
-      - name: Check if tag exists
-        run: |
-          if git rev-parse "${{ env.VERSION }}" >/dev/null 2>&1; then
-            echo "Tag ${{ env.VERSION }} already exists."
-            exit 1
-          fi
-
+      # آن بخش چک کردن تگ تکراری حذف شد چون با روش بالا تگ همیشه یکتا است
+      
       - name: Install dependencies
         run: flutter pub get
 
@@ -56,6 +56,7 @@ jobs:
       - name: Rename APK
         id: rename_apk
         run: |
+          # نام فایل خروجی شامل ورژن و شماره بیلد خواهد بود
           mv build/app/outputs/flutter-apk/app-release.apk app-${{ env.VERSION }}.apk
           echo "APK_PATH=app-${{ env.VERSION }}.apk" >> $GITHUB_ENV
 
@@ -67,6 +68,11 @@ jobs:
           else
             CHANGELOG=$(git log --pretty=format:"* %s")
           fi
+          # هندل کردن حالت خالی بودن لاگ برای جلوگیری از خطا
+          if [ -z "$CHANGELOG" ]; then
+            CHANGELOG="No major changes."
+          fi
+          
           echo "CHANGELOG<<EOF" >> $GITHUB_ENV
           echo "$CHANGELOG" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
@@ -85,6 +91,10 @@ jobs:
           tag_name: ${{ env.VERSION }}
           name: "Release ${{ env.VERSION }}"
           body: |
+            Build Number: ${{ env.BUILD_NUMBER }}
+            Version: ${{ env.VERSION_NAME }}
+            
+            Changes:
             ${{ env.CHANGELOG }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
